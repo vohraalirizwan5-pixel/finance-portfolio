@@ -11,4 +11,14 @@ accountants, CA firms, and small businesses hours of manual work.
 
 Every project has tests, sample data, and a README explaining the business problem.
 
+## Quick start
+
+| Project | Run | Tests |
+|---|---|---|
+| 1. Sales & Profit Dashboard | `pip install -r requirements.txt` then `streamlit run app.py` | `python -m pytest` (4 passing) |
+| 2. GST Invoice-to-Excel | `pip install -r requirements.txt` then `python run.py` | `python -m pytest` (5 passing) |
+| 3. Expense & GST Tracker | `npm install`, `npm run seed`, `npm run dev` in `server/`, then `npm run dev` in `client/` | `npm test` in `server/` (6 passing) |
+
+All sample data (sales, invoices, expenses) is generated and fictional.
+
 📫 Available for freelance work: dashboards, Excel/finance automation, and custom web tools.
